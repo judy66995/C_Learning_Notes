@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include "sort.h"
 
 #define arr_len(a) (sizeof(a)/sizeof(a[0]))
@@ -8,14 +8,14 @@ int main()
 	int a[] = { 5,2,4,7,1,3,6,10,9,8 };
 	int len = arr_len(a);
 
-	printf("Êı×é³¤¶È£º%d\n", len);
+	printf("æ•°ç»„é•¿åº¦ï¼š%d\n", len);
 
-	printf("ÅÅĞòÇ°£º");
+	printf("æ’åºå‰ï¼š");
 	PrintArray(a, len);
 
 	MergeSort(a, 0, len - 1);
 
-	printf("ÅÅĞòºó£º");
+	printf("æ’åºåï¼š");
 	PrintArray(a, len);
 
 	return 0;

@@ -1,4 +1,4 @@
-#include "print_arr.h"
+﻿#include "print_arr.h"
 #include <stdio.h>
 
 void print_arr(int a[], int len)

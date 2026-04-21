@@ -1,7 +1,7 @@
-#include "sort.h"
+ï»¿#include "sort.h"
 #include <stdio.h>
 
-// ´òÓ¡Êı×é
+// æ‰“å°æ•°ç»„
 void PrintArray(int a[], int len)
 {
 	for (int i = 0; i < len; i++)
@@ -11,7 +11,7 @@ void PrintArray(int a[], int len)
 	printf("\n");
 }
 
-// ¹é²¢ÅÅĞò
+// å½’å¹¶æ’åº
 void MergeSort(int a[], int left, int right)
 {
 	int t[100];
