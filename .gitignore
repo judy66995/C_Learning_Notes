@@ -1,0 +1,23 @@
+# VS2022 编译生成的垃圾文件/文件夹
+Debug/
+Release/
+x64/
+x86/
+.vs/
+ipch/
+Bin/
+obj/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.vcxproj.user
+*.sdf
+*.suo
+*.user
+
+# 系统临时文件
+Thumbs.db
+.DS_Store
