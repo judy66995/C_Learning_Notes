@@ -1,23 +1,56 @@
-# VS2022 编译生成的垃圾文件/文件夹
-Debug/
-Release/
-x64/
-x86/
-.vs/
-ipch/
-Bin/
-obj/
-*.exe
+# Visual Studio 2022
+*.suo
+*.user
+*.userosscache
+*.suo
+*.sdf
+*.opensdf
+*.ipch
+*.log
+*.tlog
+*.lastbuildstate
 *.obj
+*.exe
 *.pdb
 *.ilk
 *.exp
 *.lib
-*.vcxproj.user
-*.sdf
-*.suo
-*.user
+*.bin
+*.cache
+*.obj
+*.iobj
+*.ipdb
+*.ncb
+*.bsc
+*.ilk
+*.pch
+*.vsp
+*.vsps
+*.vspsx
+*.vspx
+*.vsts
+*.cache
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
 
-# 系统临时文件
-Thumbs.db
+# 项目目录
+.vs/
+Debug/
+Release/
+x64/
+x86/
+ipch/
+Bin/
+obj/
+*.vcxproj.user
+*.vcxproj.filters
+
+# 其他临时文件
+*~
+*.swp
+*.swo
 .DS_Store
+Thumbs.db
